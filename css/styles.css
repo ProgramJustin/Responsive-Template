@@ -1,0 +1,81 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+#container {
+  overflow: auto;
+  height: 100vh;
+  position: relative;
+}
+.booking-box {
+  max-width: 25%;
+  background-color: white;
+  padding: 2%;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  text-align: center;
+  height: 10%;
+  border-radius: 7px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+
+.deepocean1-box {
+  background-image: url("../img/deepocean1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  float: left;
+  border-radius: 7px;
+}
+.descript-box {
+  float: right;
+  width: 30%;
+  clear: right;
+  background-color: black;
+  color: white;
+  height: 46vh;
+  position: relative;
+  text-align: center;
+  padding: 1%;
+  margin-right: 1%;
+  margin-top: .5%;
+  border-radius: 7px;
+  font-family: 'Poppins', sans-serif;
+  /*padding: 10%;*/
+}
+.paragraph p {
+  font-size: 24px;
+}
+.paragraph span {
+  font-size: 35px;
+}
+.paragraph {
+  padding: 5%;
+}
+.hotel-info {
+  float: right;
+  width: 30%;
+  clear: right;
+  background-color: black;
+  color: white;
+  height: 46vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1%;
+  margin-right: 1%;
+  margin-bottom: .5%;
+  border-radius: 7px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+.hotel-info p {
+  float: left;
+
+}
+
+/*For mobile only*/
+@media
