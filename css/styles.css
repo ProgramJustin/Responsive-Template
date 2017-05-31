@@ -1,15 +1,76 @@
 html, body {
-  height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 #container {
   max-width: 100%;
   overflow: auto;
-  height: 100vh;
+
   position: relative;
 }
-
+@media screen and (min-width: 1301px) {
+  #container {
+    border: 2px solid green;
+    overflow: auto;
+  }
+  .deepocean1-box {
+    float: left;
+    border: 2px solid red;
+    width: 60%;
+    height: 100vh
+  }
+  .deepocean1-box img {
+    width: 100%;
+    height: 100vh;
+  }
+  .booking-box {
+    position: absolute;
+    top:3%;
+    left: 3%;
+    background-color: white;
+    max-width: 25%;
+    height: 175px;
+    border-radius: 5px;
+    padding: 1%;
+  }
+  .descript-box {
+    float: right;
+    background-color: black;
+    color: white;
+    width: 38%;
+    height: 49.5vh;
+    position: absolute;
+    right: 0;
+    border: 2px solid blue;
+  }
+  .descript-box p {
+    padding: 5%;
+    text-align: center;
+    font-size: 20px;
+  }
+  .hotel-info {
+    height: 49.5vh;
+    float: right;
+    background-color: black;
+    border: 2px solid yellow;
+    color: white;
+    width: 38%;
+    position: absolute;;
+    bottom: 0;
+    right: 0;
+  }
+  .hotel-info p {
+    padding: 1%;
+    font-size: 12px;
+  }
+  .paragraph span {
+    font-size: 30px;
+  }
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
+}
 @media screen and (max-width: 1300px) and (min-width: 601px) {
   .deepocean1-box {
     max-width: 100%;
